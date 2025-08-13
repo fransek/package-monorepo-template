@@ -14,7 +14,7 @@
     "coverage": "vitest --run --coverage --passWithNoTests",
     "lint": "eslint",
     "prepare": "husky",
-    "ci:publish": "pnpm publish --access public --no-git-checks --no-verify-access -r"
+    "ci:publish": "pnpm publish --provenance --access public --no-git-checks -r"
   },
   "devDependencies": {
     "@changesets/cli": "^2.29.5",
