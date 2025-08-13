@@ -28,10 +28,10 @@ jobs:
       - name: Install dependencies
         run: pnpm install
       - name: ESLint
-        run: pnpm run lint
+        run: pnpm lint
       - name: Typescript
         if: always()
         run: pnpm tsc --noEmit -p tsconfig.json
       - name: Prettier
         if: always()
-        run: pnpm prettier --check src
+        run: pnpm prettier --check packages/*/src
