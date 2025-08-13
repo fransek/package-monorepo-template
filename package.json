@@ -1,11 +1,11 @@
 {
-  "homepage": "https://github.com/johndoe/my-package#readme",
+  "homepage": "https://github.com/fransek/package-template#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/johndoe/my-package"
+    "url": "git+https://github.com/fransek/package-template"
   },
   "bugs": {
-    "url": "https://github.com/johndoe/my-package/issues"
+    "url": "https://github.com/fransek/package-template/issues"
   },
   "scripts": {
     "test": "vitest --run",

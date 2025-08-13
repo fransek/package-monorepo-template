@@ -8,7 +8,7 @@
   "homepage": "https://github.com/fransek/package-monorepo-template/tree/main/packages/package-b#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://https://github.com/fransek/package-monorepo-template/tree/main/packages/package-b"
+    "url": "git+https://github.com/fransek/package-monorepo-template/tree/main/packages/package-b"
   },
   "bugs": {
     "url": "https://github.com/fransek/package-monorepo-template/issues"
