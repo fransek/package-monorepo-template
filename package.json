@@ -13,9 +13,11 @@
     "test:ui": "vitest --ui --coverage",
     "coverage": "vitest --run --coverage --passWithNoTests",
     "lint": "eslint",
-    "prepare": "husky"
+    "prepare": "husky",
+    "ci:publish": "pnpm publish -r --access public --no-git-checks --no-verify-access"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.29.5",
     "@rollup/plugin-typescript": "^12.1.3",
     "@types/node": "^24.0.4",
     "@typescript-eslint/eslint-plugin": "^8.35.0",

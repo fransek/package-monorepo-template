@@ -1,4 +1,4 @@
-# Package template
+# Package monorepo template
 
 - pnpm
 - TypeScript

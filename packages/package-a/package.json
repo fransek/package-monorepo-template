@@ -1,17 +1,17 @@
 {
-  "name": "package-a",
+  "name": "@fransek/package-a",
   "version": "0.1.0",
-  "author": "John Doe <john.doe@mail.com>",
+  "author": "Frans Ekman <fransedvinekman@gmail.com>",
   "license": "MIT",
   "description": "My package description",
   "keywords": [],
-  "homepage": "https://github.com/johndoe/package-a#readme",
+  "homepage": "https://github.com/fransek/package-monorepo-template/tree/main/packages/package-a#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/johndoe/package-a"
+    "url": "git+https://https://github.com/fransek/package-monorepo-template/tree/main/packages/package-a"
   },
   "bugs": {
-    "url": "https://github.com/johndoe/package-a/issues"
+    "url": "https://github.com/fransek/package-monorepo-template/issues"
   },
   "files": [
     "dist"
