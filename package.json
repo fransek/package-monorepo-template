@@ -14,7 +14,7 @@
     "coverage": "vitest --run --coverage --passWithNoTests",
     "lint": "eslint",
     "prepare": "husky",
-    "ci:publish": "pnpm build && pnpm publish --provenance --access public -r"
+    "ci:publish": "pnpm build -r && pnpm publish --provenance --access public -r"
   },
   "devDependencies": {
     "@changesets/changelog-github": "^0.5.1",
