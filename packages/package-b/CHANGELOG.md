@@ -1,5 +1,11 @@
 # @fransek/package-b
 
+## 0.1.4
+
+### Patch Changes
+
+- [`a72f59c`](https://github.com/fransek/package-monorepo-template/commit/a72f59c2b34402ef30be779bd29514fc55fe13f2) Thanks [@fransek](https://github.com/fransek)! - Build step
+
 ## 0.1.3
 
 ### Patch Changes
