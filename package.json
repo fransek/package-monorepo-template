@@ -1,20 +1,21 @@
 {
-  "homepage": "https://github.com/fransek/package-template#readme",
+  "homepage": "https://github.com/fransek/package-monorepo-template#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fransek/package-template"
+    "url": "git+https://github.com/fransek/package-monorepo-template"
   },
   "bugs": {
-    "url": "https://github.com/fransek/package-template/issues"
+    "url": "https://github.com/fransek/package-monorepo-template/issues"
   },
   "scripts": {
+    "build": "pnpm -r build",
+    "ci:publish": "pnpm build && changeset publish",
     "test": "vitest --run",
     "test:watch": "vitest",
     "test:ui": "vitest --ui --coverage",
-    "coverage": "vitest --run --coverage --passWithNoTests",
+    "test:coverage": "vitest --run --coverage --passWithNoTests",
     "lint": "eslint",
-    "prepare": "husky",
-    "ci:publish": "pnpm -r build && changeset publish"
+    "prepare": "husky"
   },
   "devDependencies": {
     "@changesets/changelog-github": "^0.5.1",

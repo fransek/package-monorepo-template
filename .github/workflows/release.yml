@@ -1,24 +1,24 @@
-name: Release
+name: 🚀 Release
 
 on:
   push:
     branches:
       - main
 
-permissions:
-  contents: write
-  pull-requests: write
-
-concurrency: ${{ github.workflow }}-${{ github.ref }}
-
 env:
   CI: true
 
+concurrency: ${{ github.workflow }}-${{ github.ref }}
+
 jobs:
   version:
+    name: Version and publish packages
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
     steps:
-      - name: Checkout code repository
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Setup pnpm
@@ -35,7 +35,7 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Build & create and publish versions
+      - name: Create release PR or build and publish packages
         uses: changesets/action@v1
         with:
           publish: pnpm ci:publish
