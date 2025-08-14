@@ -1,5 +1,11 @@
 # @fransek/package-a
 
+## 0.1.7
+
+### Patch Changes
+
+- [`4ce45f6`](https://github.com/fransek/package-monorepo-template/commit/4ce45f6932f595dee267511caad2ccda59c76aa2) Thanks [@fransek](https://github.com/fransek)! - bump
+
 ## 0.1.6
 
 ### Patch Changes
