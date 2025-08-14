@@ -5,7 +5,6 @@
     { "repo": "fransek/package-monorepo-template" }
   ],
   "commit": false,
-  "fixed": [],
   "linked": [],
   "access": "restricted",
   "baseBranch": "main",
