@@ -1,5 +1,15 @@
 # @fransek/package-b
 
+## 0.1.5
+
+### Patch Changes
+
+- [`e26e2e3`](https://github.com/fransek/package-monorepo-template/commit/e26e2e3ecf11336775a16cb7af5a6206b0128940) Thanks [@fransek](https://github.com/fransek)! - bump
+
+- [`1506fd2`](https://github.com/fransek/package-monorepo-template/commit/1506fd24db26f92b37080147c190d93ab1790db1) Thanks [@fransek](https://github.com/fransek)! - bump
+
+- [`59d3383`](https://github.com/fransek/package-monorepo-template/commit/59d33839d9c25e9bec93428ba58838d7734e6ef7) Thanks [@fransek](https://github.com/fransek)! - bump
+
 ## 0.1.4
 
 ### Patch Changes
