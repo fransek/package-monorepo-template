@@ -8,6 +8,7 @@ on:
 # Needed for creating GitHub releases
 permissions:
   contents: write
+  pull-requests: write
 
 env:
   CI: true
