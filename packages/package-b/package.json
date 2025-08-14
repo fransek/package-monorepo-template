@@ -33,9 +33,6 @@
     "coverage": "vitest --run --coverage --passWithNoTests",
     "lint": "eslint"
   },
-  "devDependencies": {
-    "prettier": "^3.6.2"
-  },
   "publishConfig": {
     "provenance": true
   }
